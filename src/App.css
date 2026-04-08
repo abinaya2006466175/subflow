@@ -1,0 +1,99 @@
+/* ---------------- HERO SECTION ---------------- */
+
+.hero {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* Start Button */
+
+.start-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background: #e0f2fe;
+  transform: scale(1.05);
+}
+
+/* ---------------- FEATURES SECTION ---------------- */
+
+.features-section {
+  margin-top: 30px;
+}
+
+.features-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Grid */
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Feature Card */
+
+.feature-card {
+  background: white;
+  width: 260px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.feature-card h3 {
+  margin-bottom: 10px;
+  color: #2563eb;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+.footer {
+  margin-top: 60px;
+  padding: 20px;
+  background: #0f172a;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+}
